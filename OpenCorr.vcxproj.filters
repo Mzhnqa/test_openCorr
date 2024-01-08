@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Heads">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Sources\examples">
+      <UniqueIdentifier>{e33327ee-d968-4cfe-a4dd-9a459df41113}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OpenCorr\oc_point.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCorr\oc_array.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCorr\oc_cubic_bspline.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCorr\oc_deformation.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCorr\oc_dic.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCorr\oc_fftcc.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCorr\oc_gradient.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCorr\oc_icgn.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCorr\oc_io.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCorr\oc_poi.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCorr\oc_sift.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCorr\oc_subset.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCorr\oc_feature_affine.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCorr\oc_strain.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCorr\oc_calibration.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCorr\oc_stereovision.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCorr\oc_epipolar_search.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCorr\oc_feature.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCorr\oc_nearest_neighbor.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCorr\test_3d_dic_epipolar_sift.cpp">
+      <Filter>Sources\examples</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCorr\test_3d_dic_strain.cpp">
+      <Filter>Sources\examples</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCorr\test_3d_reconstruction_epipolar.cpp">
+      <Filter>Sources\examples</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCorr\test_3d_reconstruction_sift_epipolar.cpp">
+      <Filter>Sources\examples</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCorr\test_dvc_fftcc_icgn1.cpp">
+      <Filter>Sources\examples</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCorr\test_dvc_sift_icgn1.cpp">
+      <Filter>Sources\examples</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCorr\test_dvc_strain.cpp">
+      <Filter>Sources\examples</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCorr\oc_image.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="1.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OpenCorr\oc_point.h">
+      <Filter>Heads</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCorr\oc_array.h">
+      <Filter>Heads</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCorr\oc_cubic_bspline.h">
+      <Filter>Heads</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCorr\oc_deformation.h">
+      <Filter>Heads</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCorr\oc_dic.h">
+      <Filter>Heads</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCorr\oc_fftcc.h">
+      <Filter>Heads</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCorr\oc_gradient.h">
+      <Filter>Heads</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCorr\oc_icgn.h">
+      <Filter>Heads</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCorr\oc_image.h">
+      <Filter>Heads</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCorr\oc_io.h">
+      <Filter>Heads</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCorr\oc_poi.h">
+      <Filter>Heads</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCorr\oc_sift.h">
+      <Filter>Heads</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCorr\oc_subset.h">
+      <Filter>Heads</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCorr\opencorr.h">
+      <Filter>Heads</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCorr\oc_interpolation.h">
+      <Filter>Heads</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCorr\oc_feature_affine.h">
+      <Filter>Heads</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCorr\oc_strain.h">
+      <Filter>Heads</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCorr\oc_calibration.h">
+      <Filter>Heads</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCorr\oc_stereovision.h">
+      <Filter>Heads</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCorr\oc_epipolar_search.h">
+      <Filter>Heads</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCorr\oc_feature.h">
+      <Filter>Heads</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCorr\opencorr_gpu.h">
+      <Filter>Heads</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCorr\oc_nearest_neighbor.h">
+      <Filter>Heads</Filter>
+    </ClInclude>
+    <ClInclude Include="test_dic_icgn1.h">
+      <Filter>Heads</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
